@@ -44,7 +44,7 @@ div {
   flex-direction: column;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
   body {
     background: url(wallfirs.webp);
     background-size: 700px 290px;
