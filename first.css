@@ -1,0 +1,79 @@
+body {
+  background: url(/wallfirs.webp);
+  background-size: 100% 100%;
+}
+
+a {
+  color: white;
+  font-size: 45px;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+.tit {
+  color: black;
+  font-size: 122px;
+  font-family: Arial;
+  text-shadow: 2px 0 2px white, 0 2px 11px white, -1px 0 2px white, 0 -1px 2px white;
+}
+
+.firsq {
+  width: 500px;
+  height: 250px;
+}
+
+.firs {
+  width: 500px;
+  height: 250px;
+}
+
+.firsw {
+  width: 500px;
+  height: 250px;
+}
+
+div {
+  display: flex;
+  background-size: 100% 95%;
+  height: 400px;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background: url(wallfirs.webp);
+    background-size: 700px 290px;
+  }
+  .tit {
+    color: black;
+    font-size: 25px;
+    font-family: "Arial";
+    text-shadow: 2px 0 2px white, 0 2px 11px white, -1px 0 2px white, 0 -1px 2px white;
+  }
+  .firsq {
+    width: 200px;
+    height: 150px;
+  }
+  .firs {
+    width: 200px;
+    height: 150px;
+  }
+  .firsw {
+    width: 200px;
+    height: 150px;
+  }
+  div {
+    display: flex;
+    background-size: 700px 290px;
+    height: 700px;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=first.css.map */

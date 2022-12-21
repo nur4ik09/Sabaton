@@ -1,0 +1,57 @@
+body {
+  background: url(testov_wallpaper_for_site__hyperphotorealistic_3d_rendering_8k__8f490f65-59bc-4a11-9035-c292b96d1998.png);
+  background-size: 100%;
+}
+
+.firsq {
+  width: 800px;
+  height: 250px;
+}
+
+.firs {
+  width: 800px;
+  height: 250px;
+}
+
+.ddd {
+  width: 100px;
+  height: 100px;
+  margin-right: px;
+}
+
+div {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    background: url(testov_wallpaper_for_site__hyperphotorealistic_3d_rendering_8k__8f490f65-59bc-4a11-9035-c292b96d1998.png);
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+  .ddd {
+    width: 100px;
+    height: 100px;
+  }
+  .firsq {
+    width: 290px;
+    height: 190px;
+  }
+  .firs {
+    width: 290px;
+    height: 190px;
+  }
+  div {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=musi.css.map */

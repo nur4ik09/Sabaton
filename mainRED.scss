@@ -1,0 +1,118 @@
+h1 {
+    color: red;
+    font-weight:bolder;
+    font-size: 85px;
+    font-family: fantasy;
+    text-shadow: 5px 0 5px white, 
+0 5px 5px white, 
+-1px 0 5px white, 
+0 -1px 5px white;
+}
+body {
+    justify-content: center;
+    font-size: 200px;
+    background: url(https://mobimg.b-cdn.net/v3/fetch/e9/e9642ae58d8763c8d773f468ad281c79.jpeg);
+}
+p {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    text-shadow: 5px 0 5px red, 
+0 5px 5px red, 
+-1px 0 5px red, 
+0 -1px 5px red;
+}
+.back{
+    color: yellow;
+}
+.yy{
+    color: red;
+    font-weight:bolder;
+    font-size: 55px;
+    font-family: fantasy;
+    text-shadow: 5px 0 5px white, 
+0 5px 5px white, 
+-1px 0 5px white, 
+0 -1px 5px white;
+}
+.ddd{
+    width: 100px;
+    height: 100px;
+}
+.ddw{
+    width: 100px;
+    height: 100px;
+}
+.ddq{
+    width: 150px;
+    height: 100px;
+}
+.www{
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 700px;
+    height: 800px;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1280px) {
+    .ddd{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    width: 270px;
+}
+body{
+    width: 270px;
+}
+    .ddw{
+    width: 100px;
+    height: 100px;
+}
+    .ddq{
+    width: 150px;
+    height: 100px;
+}
+    .www{
+    width: 100px;
+    height: 100px;
+}
+    div{
+    width: 260px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.jjh{
+    width: 100px;
+}
+    .man{
+    width: 270px;
+    height: 95%;
+}
+.ggh{width: 270px;}
+    .dd{
+    font-size: 50px;
+}
+audio{
+    width: 260px;
+}
+.yy{
+    width: 290px;
+}
+p {
+    width: 270px;
+    color: black;
+    font-size: 30px;
+    text-shadow: 5px 0 5px red, 
+0 5px 5px red, 
+-1px 0 5px red, 
+0 -1px 5px red;
+}
+}

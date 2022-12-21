@@ -1,0 +1,107 @@
+h1 {
+  color: black;
+  font-weight: 900;
+  font-size: 45%;
+  font-family: fantasy;
+  text-shadow: 11px 0 11px white, 0 11px 11px white, -1px 0 11px white, 0 -1px 11px white;
+}
+
+body {
+  justify-content: center;
+  font-size: 200px;
+  background: url(wallat.jpg);
+  background-size: 100% 100%;
+}
+
+.vido {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.yy {
+  color: darkgreen;
+  font-weight: bolder;
+  font-size: 55px;
+  font-family: fantasy;
+  text-shadow: 11px 0 11px #000, 0 11px 11px #000, -1px 0 11px #000, 0 -1px 11px #000;
+}
+
+p {
+  color: darkgreen;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 11px 0 11px #000, 0 11px 11px #000, -1px 0 11px #000, 0 -1px 11px #000;
+}
+
+.ddd {
+  width: 100px;
+  height: 100px;
+}
+
+.ddw {
+  width: 100px;
+  height: 100px;
+}
+
+.ddq {
+  width: 150px;
+  height: 100px;
+}
+
+.www {
+  width: 100px;
+  height: 100px;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+  .ddd {
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    width: 270px;
+  }
+  body {
+    width: 270px;
+  }
+  .ddw {
+    width: 100px;
+    height: 100px;
+  }
+  .ddq {
+    width: 150px;
+    height: 100px;
+  }
+  .www {
+    width: 100px;
+    height: 100px;
+  }
+  div {
+    width: 260px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .dd {
+    font-size: 50px;
+  }
+  audio {
+    width: 250px;
+  }
+  p {
+    width: 270px;
+    color: darkgreen;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 11px 0 11px #000, 0 11px 11px #000, -1px 0 11px #000, 0 -1px 11px #000;
+  }
+}/*# sourceMappingURL=mainATTA.css.map */
